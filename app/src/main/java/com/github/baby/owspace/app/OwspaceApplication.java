@@ -25,7 +25,7 @@ public class OwspaceApplication extends Application{
     public static OwspaceApplication get(Context context){
         return (OwspaceApplication)context.getApplicationContext();
     }
-
+    //
     private NetComponent netComponent;
 
     @Override
